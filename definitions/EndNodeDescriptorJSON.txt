@@ -1,0 +1,38 @@
+nodeObj = {
+  "General": {
+    "NodeName" : "BedRoom1",
+    "NodeDescription" : "First floor bedroom",
+    "UUID" : "b19e8310-0842-11e9-b568-0800200c9a66",
+    "AppGenerated" : "25-12-2018",
+    "AppVersion" : "1.1.2",
+    "CountryCode" : "HU",
+    "Misc" : "for future usage"
+  },
+  "Personalities": [
+    {
+      "Class" : "Digital",
+      "Direction" : "Input",
+      "UUID" : "cf82d600-0843-11e9-b568-0800200c9a66",
+      "Name" : "WS_1",
+      "Description" : "Wall Switch 1"
+    },
+    {
+      "Class" : "Digital",
+      "Direction" : "Input",
+      "UUID" : "c1676d50-0844-11e9-b568-0800200c9a66",
+      "Name" : "WS_2",
+      "Description" : "Wall Switch 2"
+    }
+  ],
+
+
+
+
+  "name":"John",
+  "age":30,
+  "cars": {
+    "car1":"Ford",
+    "car2":"BMW",
+    "car3":"Fiat"
+  }
+ }
