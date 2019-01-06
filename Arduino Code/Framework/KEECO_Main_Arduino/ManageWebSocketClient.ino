@@ -20,7 +20,7 @@ void webSocketEvent(WStype_t type, uint8_t * payload, size_t length) {
             break;
         case WStype_TEXT:
             Serial.printf("[WSc] get text: %s\n", payload);
-
+            //Add strncpy() and cases to handle various requests 
             break;
         case WStype_BIN:
             Serial.printf("[WSc] get binary length: %u\n", length);
